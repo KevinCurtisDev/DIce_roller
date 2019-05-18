@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
+import Dice from './Dice';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <h1>Hi</h1>
+      <div className="App">
+        <Dice />
+      </div>
     )
   }
 }
